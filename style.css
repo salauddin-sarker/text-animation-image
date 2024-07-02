@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.text_animation{
+  background: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif") repeat;
+  background-position: 40% 50%;
+  color: transparent;
+  font-size: 120px;
+  font-weight: 600;
+  letter-spacing: -4px;
+  -webkit-background-clip: text;
+}
